@@ -1,0 +1,24 @@
+{
+  "name": "full-stack-open",
+  "version": "1.0.0",
+  "description": "The Full-stack Open Curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EEdoolotu/Full-Stack-Open.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EEdoolotu/Full-Stack-Open/issues"
+  },
+  "homepage": "https://github.com/EEdoolotu/Full-Stack-Open#readme",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
+}
