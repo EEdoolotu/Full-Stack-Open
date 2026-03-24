@@ -1,17 +1,17 @@
-import { useState } from 'react'
-
-const App = () => {
-
-  const [ counter, setCounter ] = useState(0)
+import Note from './components/Note'
 
 
-  setTimeout(
-    () => setCounter(counter + 1),
-    1000
-  )
-
+const App = ({ notes }) => {
   return (
-    <div>{counter}</div>
+    <div>
+      <h1>Notes</h1>
+      <ul>
+
+        {notes.map(note => 
+          <Note key={note.id} note={note} />
+        )}
+      </ul>
+    </div>
   )
 }
 
